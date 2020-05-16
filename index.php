@@ -20,9 +20,14 @@
   // $aluno->insert();
   // echo $aluno;
 
+    // $usuario = new Usuario();
+    // $usuario->loadById(3);
+    // $usuario->update("StevenPaiao", "9991");
+    // echo $usuario;
+
     $usuario = new Usuario();
-    $usuario->loadById(3);
-    $usuario->update("StevenPaiao", "9991");
+    $usuario->loadById(4);
+    $usuario->delete();
     echo $usuario;
 
 ?>
